@@ -1,6 +1,10 @@
+@import 'variables';
+
+
 body {
   margin: 0;
   padding: 0;
+  background-color: $light-bg-grey;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -11,4 +15,16 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  color: $light-text-grey;
+}
+
+.dark-bg {
+  background-color: $dark-bg-grey;
+}
+
+.app {
+  padding: 20px;
 }
